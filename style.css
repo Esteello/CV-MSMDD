@@ -1,0 +1,122 @@
+/* Write some CSS below */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: radial-gradient(circle, #cc9395, #f5efe6);
+    font-family: 'roboto', sans-serif;
+}
+
+.body-center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin: 20px auto;
+    object-fit: cover;
+    object-position: left 25%;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #BDA18A;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+a:hover {
+    background-color: #a4a1a1;
+    color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+
+}
+
+h1 {
+    font-size: 32px;
+    color: black;
+    font-family: 'playfair';
+    
+}
+
+.card-header {
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    text-align: center;
+}
+
+.card-contact {
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    text-align: center;
+}
+
+.card-content {
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    text-align: center;
+}
+
+.card-white {
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    text-align: center;
+}
+
+.list-inline {
+    padding-left: 0px;
+ }
+ 
+ .list-inline li {
+ display: inline;
+ font-size: 40px;
+ }
+
+ .list-inline i {
+    color: #fcfcfa;
+ }
+
+ .list-inline i:hover {
+    color: #293432;
+ }
+
+ .list-inline2 {
+    padding-left: 0px;
+ }
+ 
+ .list-inline2 li {
+ display: inline;
+ font-size: 1px;
+ }
+
+ .list-inline a {
+    margin: 0px 20px;
+ }
